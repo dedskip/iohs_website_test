@@ -109,6 +109,13 @@ h1, h2, h3 {
   transition: all 0.3s ease;
 }
 
+@media screen and (max-width: 768px) {
+  .navbar {
+    overflow-x: hidden; /* 👈 Add this */
+    position: relative; /* make sure it's not static */
+  }
+}
+
 /* Mobile Nav */
 @media screen and (max-width: 768px) {
   .nav-links {
@@ -318,6 +325,16 @@ h1, h2, h3 {
 .contact-form button:hover {
   background-color: var(--accent-green);
 }
+
+
+/* ================
+   extra constraint 
+   ================ */
+
+html, body {
+  overflow-x: hidden;
+}
+
 
 /* =====================
    FOOTER
