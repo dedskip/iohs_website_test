@@ -138,6 +138,7 @@ h1, h2, h3 {
 
   .navbar {
     justify-content: space-between;
+    overflow-x: hidden;
   }
 }
 
