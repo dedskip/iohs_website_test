@@ -337,6 +337,11 @@ body, html {
   position: relative; /* Helps define z-index stacking context */
 }
 
+section {
+  position: relative;
+  z-index: 0;
+}
+
 /* =====================
    FOOTER
    ===================== */
