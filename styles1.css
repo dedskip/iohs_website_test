@@ -26,6 +26,7 @@ body {
   background-color: var(--neutral-light);
   color: var(--neutral-dark);
   line-height: 1.6;
+  overflow-x: hidden;
 }
 
 h1, h2, h3 {
@@ -52,6 +53,7 @@ h1, h2, h3 {
   top: 0;
   z-index: 1000;
   border-bottom: 1px solid #ddd;
+  overflow-x: hidden;
 }
 
 .nav-logo img {
@@ -123,6 +125,7 @@ h1, h2, h3 {
     transform: translateX(100%);
     transition: transform 0.3s ease-in-out;
     box-shadow: -2px 0 10px rgba(0, 0, 0, 0.1);
+    overflow-x: hidden;
   }
 
   .nav-links.open {
